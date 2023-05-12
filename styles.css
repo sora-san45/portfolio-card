@@ -16,14 +16,14 @@ body{
     height:350px;
     width: 300px;
     position: relative;
+    transition: transform 250ms;
   }
 
   .card:hover{
-    transition: all;
-    transition-property: ease-in-out;
-    transition-duration: 3000ms;
+    
+    transition: transform 250ms;
     transform: translate(-50%,-50%);
-    transform: scale(1.2);
+    transform: scale(1.1);
 
   }
   
