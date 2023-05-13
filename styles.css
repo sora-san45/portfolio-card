@@ -19,7 +19,7 @@ box-shadow:  5px 5px 6px #181717,
              -5px -5px 6px #221f1f;
     align-items: center;
     border-radius:20px;
-    height:375px;
+    height:380px;
     justify-content: space-evenly;
     flex-direction: column;
     display:flex;
@@ -28,6 +28,7 @@ box-shadow:  5px 5px 6px #181717,
     transition: transform 250ms;
   }
 
+  
   .card:hover{
     transition: transform 250ms ;
     transform: translate(-50%,-50%);
@@ -38,7 +39,7 @@ box-shadow:  5px 5px 6px #181717,
     width: 300px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    height:50px;
+    height:55px;
     background: #a770ef; 
   background: -webkit-linear-gradient(to right, #a770ef, #cf8bf3, #fdb99b); 
   background: linear-gradient(to right, #a770ef, #cf8bf3, #fdb99b); 
@@ -48,18 +49,39 @@ display: flex;
 top:0px;
 
   }
+  .pfp{
+    position: absolute;
+    height:90px;
+    width:90px;
+    top: 10px;
+    border-radius: 50px;
+    background: #1d1b1b;
+    box-shadow:  5px 5px 6px #181717;
+                 
+             
+  }
+  .pfp img{
+    position: relative;
+    right: 5px;
+    top: 5px;
+    bottom: 5px;
+    left: 5px;
+    height:80px;
+    width:80px;
+    border-radius: 50px;
+  }
 .name{
   font-weight: 500;
   font-size: larger;
   color: rgb(139, 127, 112);
   position: relative;
-  top: 35px;
+  top: 48px;
 }
 .dev{
   position: absolute;
   font-weight: 400;
   color: rgb(139, 127, 112);
-  top: 105px;
+  top: 116px;
 }
 .info{
   padding:0px;
