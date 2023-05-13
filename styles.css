@@ -39,9 +39,10 @@ box-shadow:  5px 5px 6px #181717,
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     height:70px;
-    background: #4568DC;  
-background: -webkit-linear-gradient(to right, #B06AB3, #4568DC);  
-background: linear-gradient(to right, #B06AB3, #4568DC); 
+    background: #a770ef; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #a770ef, #cf8bf3, #fdb99b); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #a770ef, #cf8bf3, #fdb99b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 position: absolute;
 display: flex;
 top:0px;
