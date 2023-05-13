@@ -53,7 +53,13 @@ top:0px;
   font-size: larger;
   color: rgb(139, 127, 112);
   position: relative;
-  top: 50px;
+  top: 35px;
+}
+.dev{
+  position: absolute;
+  font-weight: 400;
+  color: rgb(139, 127, 112);
+  top: 105px;
 }
 .info{
   padding:0px;
