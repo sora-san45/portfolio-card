@@ -34,7 +34,19 @@ box-shadow:  5px 5px 6px #181717,
     transform: scale(1.1);
   }
 
-  
+  .banner{
+    width: 340px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    height:70px;
+    background: #4568DC;  
+background: -webkit-linear-gradient(to right, #B06AB3, #4568DC);  
+background: linear-gradient(to right, #B06AB3, #4568DC); 
+position: absolute;
+display: flex;
+top:0px;
+
+  }
 .info{
   padding:0px;
   margin:0px;
