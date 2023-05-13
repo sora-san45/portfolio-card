@@ -37,17 +37,21 @@ box-shadow:  5px 5px 6px #181717,
 .info{
   padding:0px;
   margin:0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   position: relative;
+  height:100px;
   top:80px;
   color: rgb(139, 127, 112);
-}
-ul{
   list-style-type: none;
 }
+
+  
 .email{
   display:flex;
   align-items: center;
-  gap:5px;
+  gap:6px;
 }
 .email h4{
   margin: 0;
@@ -61,7 +65,7 @@ ul{
 .phone{
   display:flex;
   align-items: center;
-  gap:5px;
+  gap:6px;
 }
 .phone h4{
   margin: 0;
@@ -74,7 +78,7 @@ ul{
 .location{
   display:flex;
   align-items: center;
-  gap:5px;
+  gap:6px;
 }
 .location h4{
   margin: 0;
