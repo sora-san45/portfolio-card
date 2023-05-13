@@ -23,7 +23,7 @@ box-shadow:  5px 5px 6px #181717,
     justify-content: space-evenly;
     flex-direction: column;
     display:flex;
-    width: 340px;
+    width: 300px;
     position: relative;
     transition: transform 250ms;
   }
@@ -35,13 +35,13 @@ box-shadow:  5px 5px 6px #181717,
   }
 
   .banner{
-    width: 340px;
+    width: 300px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    height:70px;
-    background: #a770ef; /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #a770ef, #cf8bf3, #fdb99b); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #a770ef, #cf8bf3, #fdb99b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height:50px;
+    background: #a770ef; 
+  background: -webkit-linear-gradient(to right, #a770ef, #cf8bf3, #fdb99b); 
+  background: linear-gradient(to right, #a770ef, #cf8bf3, #fdb99b); 
 
 position: absolute;
 display: flex;
