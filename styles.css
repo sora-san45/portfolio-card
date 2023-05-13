@@ -34,6 +34,7 @@ box-shadow:  5px 5px 6px #181717,
     transform: scale(1.1);
   }
 
+  
 .info{
   padding:0px;
   margin:0px;
@@ -53,7 +54,7 @@ box-shadow:  5px 5px 6px #181717,
   align-items: center;
   gap:6px;
 }
-.email h4{
+.email h5{
   margin: 0;
   font-weight: 300;
 }
@@ -67,7 +68,7 @@ box-shadow:  5px 5px 6px #181717,
   align-items: center;
   gap:6px;
 }
-.phone h4{
+.phone h5{
   margin: 0;
   font-weight: 300;
 }
@@ -80,7 +81,7 @@ box-shadow:  5px 5px 6px #181717,
   align-items: center;
   gap:6px;
 }
-.location h4{
+.location h5{
   margin: 0;
   font-weight: 300;
 }
